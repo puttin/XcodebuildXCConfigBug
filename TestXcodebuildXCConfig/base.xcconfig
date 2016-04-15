@@ -1,0 +1,2 @@
+MY_CONFIGS = $(inherited) "ASDF" "ZXCV"
+NonSenseKeyToThisPotentialBug = "000" "123"

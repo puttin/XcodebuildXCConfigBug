@@ -1,0 +1,9 @@
+0a1,4
+> Build settings from configuration file './TestXcodebuildXCConfig/1.xcconfig':
+>     MY_CONFIGS = $(inherited) "ASDF" "ZXCV"
+>     NonSenseKeyToThisPotentialBug = "111" "123"
+> 
+198c202
+<     MY_CONFIGS = "QWER" "ASDF" "ZXCV"
+---
+>     MY_CONFIGS = "QWER" "ASDF" "ZXCV" "ASDF" "ZXCV"

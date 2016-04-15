@@ -1,0 +1,2 @@
+#include "base.xcconfig"
+NonSenseKeyToThisPotentialBug = "111" "123"
